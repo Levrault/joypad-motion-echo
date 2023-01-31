@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://bs3ig1ussc7mv"]
+[gd_scene load_steps=2 format=3 uid="uid://dluvx4g0lyhur"]
+
+[ext_resource type="Script" path="res://ItemListItemFactory.gd" id="1_kwc17"]
 
 [node name="ItemList" type="Control"]
 anchor_right = 1.0
@@ -7,3 +9,4 @@ anchor_bottom = 1.0
 [node name="ItemList" type="ItemList" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
+script = ExtResource("1_kwc17")
