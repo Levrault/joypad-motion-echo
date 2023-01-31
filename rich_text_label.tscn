@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b73wg0x17vxeb"]
+
+[node name="RichTextLabel" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "Ut efficitur vulputate ipsum, in vestibulum massa tincidunt quis. Fusce pellentesque pellentesque mi, eget mattis sem fringilla vitae. Phasellus vitae iaculis eros. Aenean ac sapien at augue viverra dapibus porttitor sed urna. Etiam ornare auctor mauris, id sagittis nunc hendrerit et. Fusce a mi vel mi dictum aliquet id et eros."

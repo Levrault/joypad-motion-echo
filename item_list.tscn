@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bs3ig1ussc7mv"]
+
+[node name="ItemList" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ItemList" type="ItemList" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
