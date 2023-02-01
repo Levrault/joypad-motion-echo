@@ -2,4 +2,4 @@ extends Control
 
 
 func _ready() -> void:
-	$CodeEdit.grab_focus()
+	$Tree.grab_focus()
