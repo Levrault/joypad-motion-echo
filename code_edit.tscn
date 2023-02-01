@@ -1,70 +1,22 @@
-[gd_scene load_steps=5 format=3 uid="uid://dk7ks0ooqu35d"]
+[gd_scene load_steps=2 format=3 uid="uid://btpet0ypvha2m"]
 
-[ext_resource type="Script" path="res://main.gd" id="1_q6rtt"]
-[ext_resource type="Script" path="res://ItemListItemFactory.gd" id="2_0d74d"]
-[ext_resource type="Script" path="res://TreeData.gd" id="2_ihsil"]
-[ext_resource type="Script" path="res://OptionButtonItemFactory.gd" id="3_fxp2x"]
+[ext_resource type="Script" path="res://code_edit.gd" id="1_foruu"]
 
-[node name="Main" type="Control"]
+[node name="CodeEdit" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_q6rtt")
+script = ExtResource("1_foruu")
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
-layout_mode = 0
+[node name="CodeEdit" type="CodeEdit" parent="."]
+layout_mode = 1
+anchors_preset = 10
 anchor_right = 1.0
-anchor_bottom = 1.0
-theme_override_constants/margin_left = 16
-theme_override_constants/margin_top = 16
-theme_override_constants/margin_right = 16
-theme_override_constants/margin_bottom = 16
-
-[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer"]
-layout_mode = 2
-follow_focus = true
-
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/ScrollContainer"]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-
-[node name="Label" type="Label" parent="MarginContainer/ScrollContainer/VBoxContainer"]
-layout_mode = 2
-text = "Slider"
-
-[node name="HSlider" type="HSlider" parent="MarginContainer/ScrollContainer/VBoxContainer"]
-unique_name_in_owner = true
-layout_mode = 2
-
-[node name="Label2" type="Label" parent="MarginContainer/ScrollContainer/VBoxContainer"]
-layout_mode = 2
-text = "ItemList"
-
-[node name="ItemList" type="ItemList" parent="MarginContainer/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 120)
-layout_mode = 2
-auto_height = true
-script = ExtResource("2_0d74d")
-
-[node name="Label3" type="Label" parent="MarginContainer/ScrollContainer/VBoxContainer"]
-layout_mode = 2
-text = "OptionButton (PopupMenu)"
-
-[node name="OptionButton" type="OptionButton" parent="MarginContainer/ScrollContainer/VBoxContainer"]
-layout_mode = 2
-script = ExtResource("3_fxp2x")
-
-[node name="Label4" type="Label" parent="MarginContainer/ScrollContainer/VBoxContainer"]
-layout_mode = 2
-text = "RichTextLabel"
-
-[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 120)
-layout_mode = 2
+offset_bottom = 70.0
+grow_horizontal = 2
 text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum eget velit condimentum ornare. Aenean semper gravida libero in volutpat. Praesent id ipsum justo. Morbi vitae purus lorem. Curabitur non risus sit amet velit dapibus maximus quis ut est. Aenean et congue ipsum. Curabitur vitae magna vitae lectus dictum maximus. Maecenas eros ante, vulputate nec nunc nec, aliquet auctor risus. Vestibulum ut augue finibus tellus sagittis consequat. Vestibulum pellentesque ultrices odio, tristique ullamcorper diam ultrices tempor. Ut sit amet nulla at elit molestie accumsan. Etiam ornare maximus enim, eu vulputate erat efficitur at. Vestibulum dictum urna mauris, quis aliquam nibh bibendum non. Nullam at eleifend nibh.
 
 Integer laoreet erat at placerat molestie. Nulla euismod tortor eget lacinia ultrices. Donec magna mi, mollis eu lorem quis, suscipit mattis leo. Donec sodales eget turpis in efficitur. Integer eleifend odio dolor, vitae varius nisl lacinia et. Nulla fermentum diam sed diam pretium mattis. Nullam viverra, massa ut fermentum tempor, sapien sem tempor metus, ac auctor quam mi id arcu. Aliquam a ante malesuada, hendrerit arcu ac, euismod dui. Integer nec tempor massa, quis ornare metus. Aenean suscipit libero sit amet nisi malesuada, vitae tincidunt est bibendum.
@@ -74,13 +26,3 @@ Nullam imperdiet a lacus at maximus. Vestibulum ante ipsum primis in faucibus or
 Aliquam erat volutpat. Etiam semper interdum feugiat. Aliquam quis tristique nisi. Nulla consectetur egestas pretium. Aliquam purus urna, laoreet vel pellentesque non, ornare eget leo. Curabitur volutpat nisl eget tempor consequat. Fusce elementum magna at lectus fringilla sodales. Etiam non ornare erat. Aliquam gravida elementum laoreet.
 
 Fusce ultrices ex fringilla, malesuada ex vitae, pulvinar felis. Vestibulum porttitor volutpat nisl, et scelerisque nibh porttitor nec. Curabitur vel pulvinar nibh. Etiam hendrerit facilisis quam sit amet commodo. Mauris sollicitudin pulvinar aliquam. Fusce sit amet massa ac ligula ornare dignissim eu sit amet nunc. Morbi euismod, ante ac vestibulum posuere, sem diam facilisis ex, vitae elementum tellus diam et massa."
-
-[node name="Label5" type="Label" parent="MarginContainer/ScrollContainer/VBoxContainer"]
-layout_mode = 2
-text = "Tree"
-
-[node name="Tree" type="Tree" parent="MarginContainer/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 200)
-layout_mode = 2
-columns = 2
-script = ExtResource("2_ihsil")

@@ -1,7 +1,19 @@
-[gd_scene format=3 uid="uid://gqymn2s5ivp8"]
+[gd_scene load_steps=3 format=3 uid="uid://gqymn2s5ivp8"]
+
+[ext_resource type="Script" path="res://popup_menu.gd" id="1_3vgbn"]
+[ext_resource type="Script" path="res://OptionButtonItemFactory.gd" id="1_o23oe"]
 
 [node name="PopupMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3vgbn")
 
-[node name="PopupMenu" type="PopupMenu" parent="."]
+[node name="OptionButton" type="OptionButton" parent="."]
+layout_mode = 0
+anchor_right = 1.0
+offset_bottom = 20.0
+script = ExtResource("1_o23oe")

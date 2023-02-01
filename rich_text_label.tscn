@@ -1,10 +1,30 @@
-[gd_scene format=3 uid="uid://b73wg0x17vxeb"]
+[gd_scene load_steps=2 format=3 uid="uid://b73wg0x17vxeb"]
+
+[ext_resource type="Script" path="res://rich_text_label.gd" id="1_oel08"]
 
 [node name="RichTextLabel" type="Control"]
+layout_mode = 3
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 2
+script = ExtResource("1_oel08")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = -1
 anchor_right = 1.0
-anchor_bottom = 1.0
-text = "Ut efficitur vulputate ipsum, in vestibulum massa tincidunt quis. Fusce pellentesque pellentesque mi, eget mattis sem fringilla vitae. Phasellus vitae iaculis eros. Aenean ac sapien at augue viverra dapibus porttitor sed urna. Etiam ornare auctor mauris, id sagittis nunc hendrerit et. Fusce a mi vel mi dictum aliquet id et eros."
+anchor_bottom = 0.221
+offset_bottom = -0.208008
+focus_mode = 2
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum eget velit condimentum ornare. Aenean semper gravida libero in volutpat. Praesent id ipsum justo. Morbi vitae purus lorem. Curabitur non risus sit amet velit dapibus maximus quis ut est. Aenean et congue ipsum. Curabitur vitae magna vitae lectus dictum maximus. Maecenas eros ante, vulputate nec nunc nec, aliquet auctor risus. Vestibulum ut augue finibus tellus sagittis consequat. Vestibulum pellentesque ultrices odio, tristique ullamcorper diam ultrices tempor. Ut sit amet nulla at elit molestie accumsan. Etiam ornare maximus enim, eu vulputate erat efficitur at. Vestibulum dictum urna mauris, quis aliquam nibh bibendum non. Nullam at eleifend nibh.
+
+Integer laoreet erat at placerat molestie. Nulla euismod tortor eget lacinia ultrices. Donec magna mi, mollis eu lorem quis, suscipit mattis leo. Donec sodales eget turpis in efficitur. Integer eleifend odio dolor, vitae varius nisl lacinia et. Nulla fermentum diam sed diam pretium mattis. Nullam viverra, massa ut fermentum tempor, sapien sem tempor metus, ac auctor quam mi id arcu. Aliquam a ante malesuada, hendrerit arcu ac, euismod dui. Integer nec tempor massa, quis ornare metus. Aenean suscipit libero sit amet nisi malesuada, vitae tincidunt est bibendum.
+
+Nullam imperdiet a lacus at maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis magna orci, porttitor sit amet aliquam sit amet, euismod sit amet turpis. Nullam tortor leo, sollicitudin quis turpis non, accumsan tempor metus. Sed ac metus id est ultricies efficitur non nec ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nec laoreet ipsum. Suspendisse a nisl lectus. Etiam lacinia egestas tempor. Suspendisse id magna a lacus faucibus interdum. Etiam at turpis vel neque feugiat ullamcorper.
+
+Aliquam erat volutpat. Etiam semper interdum feugiat. Aliquam quis tristique nisi. Nulla consectetur egestas pretium. Aliquam purus urna, laoreet vel pellentesque non, ornare eget leo. Curabitur volutpat nisl eget tempor consequat. Fusce elementum magna at lectus fringilla sodales. Etiam non ornare erat. Aliquam gravida elementum laoreet.
+
+Fusce ultrices ex fringilla, malesuada ex vitae, pulvinar felis. Vestibulum porttitor volutpat nisl, et scelerisque nibh porttitor nec. Curabitur vel pulvinar nibh. Etiam hendrerit facilisis quam sit amet commodo. Mauris sollicitudin pulvinar aliquam. Fusce sit amet massa ac ligula ornare dignissim eu sit amet nunc. Morbi euismod, ante ac vestibulum posuere, sem diam facilisis ex, vitae elementum tellus diam et massa."
