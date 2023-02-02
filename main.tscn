@@ -58,23 +58,6 @@ text = "OptionButton (PopupMenu)"
 layout_mode = 2
 script = ExtResource("3_fxp2x")
 
-[node name="Label4" type="Label" parent="MarginContainer/ScrollContainer/VBoxContainer"]
-layout_mode = 2
-text = "RichTextLabel"
-
-[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 120)
-layout_mode = 2
-text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum eget velit condimentum ornare. Aenean semper gravida libero in volutpat. Praesent id ipsum justo. Morbi vitae purus lorem. Curabitur non risus sit amet velit dapibus maximus quis ut est. Aenean et congue ipsum. Curabitur vitae magna vitae lectus dictum maximus. Maecenas eros ante, vulputate nec nunc nec, aliquet auctor risus. Vestibulum ut augue finibus tellus sagittis consequat. Vestibulum pellentesque ultrices odio, tristique ullamcorper diam ultrices tempor. Ut sit amet nulla at elit molestie accumsan. Etiam ornare maximus enim, eu vulputate erat efficitur at. Vestibulum dictum urna mauris, quis aliquam nibh bibendum non. Nullam at eleifend nibh.
-
-Integer laoreet erat at placerat molestie. Nulla euismod tortor eget lacinia ultrices. Donec magna mi, mollis eu lorem quis, suscipit mattis leo. Donec sodales eget turpis in efficitur. Integer eleifend odio dolor, vitae varius nisl lacinia et. Nulla fermentum diam sed diam pretium mattis. Nullam viverra, massa ut fermentum tempor, sapien sem tempor metus, ac auctor quam mi id arcu. Aliquam a ante malesuada, hendrerit arcu ac, euismod dui. Integer nec tempor massa, quis ornare metus. Aenean suscipit libero sit amet nisi malesuada, vitae tincidunt est bibendum.
-
-Nullam imperdiet a lacus at maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis magna orci, porttitor sit amet aliquam sit amet, euismod sit amet turpis. Nullam tortor leo, sollicitudin quis turpis non, accumsan tempor metus. Sed ac metus id est ultricies efficitur non nec ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nec laoreet ipsum. Suspendisse a nisl lectus. Etiam lacinia egestas tempor. Suspendisse id magna a lacus faucibus interdum. Etiam at turpis vel neque feugiat ullamcorper.
-
-Aliquam erat volutpat. Etiam semper interdum feugiat. Aliquam quis tristique nisi. Nulla consectetur egestas pretium. Aliquam purus urna, laoreet vel pellentesque non, ornare eget leo. Curabitur volutpat nisl eget tempor consequat. Fusce elementum magna at lectus fringilla sodales. Etiam non ornare erat. Aliquam gravida elementum laoreet.
-
-Fusce ultrices ex fringilla, malesuada ex vitae, pulvinar felis. Vestibulum porttitor volutpat nisl, et scelerisque nibh porttitor nec. Curabitur vel pulvinar nibh. Etiam hendrerit facilisis quam sit amet commodo. Mauris sollicitudin pulvinar aliquam. Fusce sit amet massa ac ligula ornare dignissim eu sit amet nunc. Morbi euismod, ante ac vestibulum posuere, sem diam facilisis ex, vitae elementum tellus diam et massa."
-
 [node name="Label5" type="Label" parent="MarginContainer/ScrollContainer/VBoxContainer"]
 layout_mode = 2
 text = "Tree"
@@ -84,3 +67,21 @@ custom_minimum_size = Vector2(0, 200)
 layout_mode = 2
 columns = 2
 script = ExtResource("2_ihsil")
+
+[node name="Label4" type="Label" parent="MarginContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "RichTextLabel"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+focus_mode = 2
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum eget velit condimentum ornare. Aenean semper gravida libero in volutpat. Praesent id ipsum justo. Morbi vitae purus lorem. Curabitur non risus sit amet velit dapibus maximus quis ut est. Aenean et congue ipsum. Curabitur vitae magna vitae lectus dictum maximus. Maecenas eros ante, vulputate nec nunc nec, aliquet auctor risus. Vestibulum ut augue finibus tellus sagittis consequat. Vestibulum pellentesque ultrices odio, tristique ullamcorper diam ultrices tempor. Ut sit amet nulla at elit molestie accumsan. Etiam ornare maximus enim, eu vulputate erat efficitur at. Vestibulum dictum urna mauris, quis aliquam nibh bibendum non. Nullam at eleifend nibh.
+
+Integer laoreet erat at placerat molestie. Nulla euismod tortor eget lacinia ultrices. Donec magna mi, mollis eu lorem quis, suscipit mattis leo. Donec sodales eget turpis in efficitur. Integer eleifend odio dolor, vitae varius nisl lacinia et. Nulla fermentum diam sed diam pretium mattis. Nullam viverra, massa ut fermentum tempor, sapien sem tempor metus, ac auctor quam mi id arcu. Aliquam a ante malesuada, hendrerit arcu ac, euismod dui. Integer nec tempor massa, quis ornare metus. Aenean suscipit libero sit amet nisi malesuada, vitae tincidunt est bibendum.
+
+Nullam imperdiet a lacus at maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis magna orci, porttitor sit amet aliquam sit amet, euismod sit amet turpis. Nullam tortor leo, sollicitudin quis turpis non, accumsan tempor metus. Sed ac metus id est ultricies efficitur non nec ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nec laoreet ipsum. Suspendisse a nisl lectus. Etiam lacinia egestas tempor. Suspendisse id magna a lacus faucibus interdum. Etiam at turpis vel neque feugiat ullamcorper.
+
+Aliquam erat volutpat. Etiam semper interdum feugiat. Aliquam quis tristique nisi. Nulla consectetur egestas pretium. Aliquam purus urna, laoreet vel pellentesque non, ornare eget leo. Curabitur volutpat nisl eget tempor consequat. Fusce elementum magna at lectus fringilla sodales. Etiam non ornare erat. Aliquam gravida elementum laoreet.
+
+Fusce ultrices ex fringilla, malesuada ex vitae, pulvinar felis. Vestibulum porttitor volutpat nisl, et scelerisque nibh porttitor nec. Curabitur vel pulvinar nibh. Etiam hendrerit facilisis quam sit amet commodo. Mauris sollicitudin pulvinar aliquam. Fusce sit amet massa ac ligula ornare dignissim eu sit amet nunc. Morbi euismod, ante ac vestibulum posuere, sem diam facilisis ex, vitae elementum tellus diam et massa."
